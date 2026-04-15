@@ -1,0 +1,2 @@
+npx shadcn@latest add separator
+npx shadcn@latest add toggle

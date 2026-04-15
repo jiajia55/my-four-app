@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import { Geist } from "next/font/google";
 import { cn } from "@/lib/utils";
 
@@ -25,8 +26,8 @@ export default function RootLayout({
       <body>
         <Header />
         {children}
-{/*         <Footer />
-        <Toaster /> */}
+        <Footer />
+        {/* <Toaster /> */}
       </body>
     </html>
   );
