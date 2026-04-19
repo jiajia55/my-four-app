@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Geist } from "next/font/google";
 import { cn } from "@/lib/utils";
-// import { Toaster } from "@/components/ui/toaster"
+import { Toaster } from "@/components/ui/toaster"
 
 const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
@@ -25,7 +25,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
-        {/* <Toaster /> */}
+        <Toaster />
       </body>
     </html>
   );
